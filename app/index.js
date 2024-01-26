@@ -1,8 +1,7 @@
 import { View, Text, SafeAreaView } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
-import Enviardados from '../components/home/enviardados/Enviardados';
 import Tirarfoto from '../components/home/tirarfoto/Tirarfoto';
-import { registerRootComponent } from 'expo';
+//import { registerRootComponent } from 'expo';
 
 
 
