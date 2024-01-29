@@ -43,16 +43,11 @@ def expoCameraMavenPath = new File(["node", "--print", "require.resolve('expo-ca
 allprojects { repositories { maven { url(expoCameraMavenPath) } } }
 // @generated end expo-camera-import
 
-subprojects {
-    project.buildDir = "${rootProject.buildDir}/${project.name}"
+android {
+    compileSdkVersion 50
 
-    project.evaluationDependsOn(':app')
-
-    afterEvaluate {project ->
-        if (project.hasProperty("android") && project.property("android").compileSdkVersion.equals("android-R")) {
-            android {
-                compileSdkVersion 50
-            }
-        }
+    defaultConfig {
+        targetSdkVersion 50
     }
+    ...
 }
