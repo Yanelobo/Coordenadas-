@@ -1,5 +1,7 @@
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
+apply plugin: "kotlin-android"
+
 
 def projectRoot = rootDir.getAbsoluteFile().getParentFile().getAbsolutePath()
 
@@ -115,6 +117,7 @@ android {
 
     kotlinOptions {
         jvmTarget = "17"
+        noStdlib = true
     }
 
     composeOptions {
