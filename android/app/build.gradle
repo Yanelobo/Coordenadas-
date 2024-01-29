@@ -112,6 +112,10 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+
+    composeOptions {
+          kotlinCompilerExtensionVersion = "1.4.4"
+    }
 }
 
 // Apply static values from `gradle.properties` to the `android.packagingOptions`
