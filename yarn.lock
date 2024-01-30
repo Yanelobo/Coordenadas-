@@ -2860,7 +2860,7 @@
     "p-map" "^4.0.0"
     "promise-inflight" "^1.0.1"
     "rimraf" "^3.0.2"
-    "ssri" "^8.0.1"
+    "ssri" "^8.1.0"
     "tar" "^6.0.2"
     "unique-filename" "^1.1.1"
 
@@ -3016,10 +3016,10 @@
     "strip-ansi" "^6.0.0"
     "wrap-ansi" "^7.0.0"
 
-"cliui@^8.0.1":
+"cliui@^8.1.0":
   "integrity" "sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ=="
-  "resolved" "https://registry.npmjs.org/cliui/-/cliui-8.0.1.tgz"
-  "version" "8.0.1"
+  "resolved" "https://registry.npmjs.org/cliui/-/cliui-8.1.0.tgz"
+  "version" "8.1.0"
   dependencies:
     "string-width" "^4.2.0"
     "strip-ansi" "^6.0.1"
@@ -6568,10 +6568,10 @@
   "resolved" "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
   "version" "1.0.3"
 
-"ssri@^8.0.1":
+"ssri@^8.1.0":
   "integrity" "sha512-97qShzy1AiyxvPNIkLWoGua7xoQzzPjQ0HAH4B0rWKo7SZ6USuPcrUiAFrws0UH8RrbWmgq3LMTObhPIHbbBeQ=="
-  "resolved" "https://registry.npmjs.org/ssri/-/ssri-8.0.1.tgz"
-  "version" "8.0.1"
+  "resolved" "https://registry.npmjs.org/ssri/-/ssri-8.1.0.tgz"
+  "version" "8.1.0"
   dependencies:
     "minipass" "^3.1.1"
 
@@ -7370,7 +7370,7 @@
   "resolved" "https://registry.npmjs.org/yargs/-/yargs-17.7.2.tgz"
   "version" "17.7.2"
   dependencies:
-    "cliui" "^8.0.1"
+    "cliui" "^8.1.0"
     "escalade" "^3.1.1"
     "get-caller-file" "^2.0.5"
     "require-directory" "^2.1.1"
